@@ -41,6 +41,8 @@ h1, h2, h3, h4, h5 {
 	color: white;
 	margin: 0px auto;
 	transition: background-color 0.2s;
+	width: 80px;
+	text-align: center;
 }
 .header-link:hover {
 	background-color: #e45b5b;
@@ -64,6 +66,7 @@ h1, h2, h3, h4, h5 {
 	width: 40%;
 	background-color: #ececec;
 	position: relative;
+	overflow: hidden;
 }
 .section-graphics-triangle {
 	transform: rotate(-90deg);
@@ -337,9 +340,9 @@ h1, h2, h3, h4, h5 {
 .section6-heading {
 	font-size: 3rem;
 	font-weight: 500;
-	margin-bottom: 90px;
 	text-align: center;
 	color: white;
+	margin: 0px 20px 90px;
 }
 .section6-form {
 	margin-bottom: 25px;
